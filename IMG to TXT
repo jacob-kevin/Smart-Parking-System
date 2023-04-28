@@ -1,0 +1,22 @@
+import pytesseract
+
+from PIL import Image
+
+pytesseract.pytesseract. tesseract_cad C:\Program Files\Tesseract-DCR tesseract.exe
+
+ing_din images/
+
+img_ext.jpg
+
+for i in range(1, 6):
+
+  img_filename ing_dir str(1) + ing_ext
+
+  img Image.open(ing_filename)
+
+  text pytesseract.image_to_string(ing)
+
+  print("Text from (ing.filename))
+
+  print(text)
+  print('\n')
